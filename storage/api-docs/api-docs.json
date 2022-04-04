@@ -1,0 +1,89 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Book Inventory",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/showAllAuthors": {
+            "get": {
+                "operationId": "a365928b6f094d226e49f39c77af87e8",
+                "responses": {
+                    "200": {
+                        "description": "show a Book."
+                    }
+                }
+            }
+        },
+        "/createBook": {
+            "post": {
+                "operationId": "205033dce194f49eef213f32114f9228",
+                "responses": {
+                    "200": {
+                        "description": "create Book."
+                    }
+                }
+            }
+        },
+        "/updateBook": {
+            "put": {
+                "operationId": "94b9dac9bd8fad010990a72ebda829dc",
+                "responses": {
+                    "200": {
+                        "description": "update Book."
+                    }
+                }
+            }
+        },
+        "/deleteBook": {
+            "delete": {
+                "operationId": "8a36259745c3e306c31f0218d8521734",
+                "responses": {
+                    "200": {
+                        "description": "delete Book."
+                    }
+                }
+            }
+        },
+        "/showAllBooks": {
+            "get": {
+                "operationId": "0e8289230755ad25c821867e778ad988",
+                "responses": {
+                    "200": {
+                        "description": "show All Books."
+                    }
+                }
+            }
+        },
+        "/showAllBooksFromAuthor": {
+            "get": {
+                "operationId": "2262e16b1e53b818514e30b7d8591993",
+                "responses": {
+                    "200": {
+                        "description": "show All Books From Author."
+                    }
+                }
+            }
+        },
+        "/showOneBook": {
+            "get": {
+                "operationId": "52af6f96da50469be431670b400e0325",
+                "responses": {
+                    "200": {
+                        "description": "show One Book from author."
+                    }
+                }
+            }
+        },
+        "/showABook": {
+            "get": {
+                "operationId": "1e33ea9ef06204525f10925ce1021879",
+                "responses": {
+                    "200": {
+                        "description": "show a Book."
+                    }
+                }
+            }
+        }
+    }
+}
