@@ -1,7 +1,7 @@
 # BookInventory-BE
 
 ### Used Versions
-- Laravel v6.0.3
+- Laravel Framework 9.5.1
 - Laravel Passport v7.4.1
 - Laravel Permission v3.0
 
