@@ -7,7 +7,7 @@
 
 ### Download
 ```
-git clone https://github.com/naywin-programmer/laravel_architectui.git your_project_name
+git clone https://github.com/olamummy/BookInventory-BE.git
 ```
 
 ### To Use
