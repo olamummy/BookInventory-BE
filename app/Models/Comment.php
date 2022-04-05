@@ -22,7 +22,7 @@ class Comment extends Model
      * @var array
      */
     protected $fillable = [
-        'comment', 'book_id'
+        'comment', 'book_id', 'ip'
     ];
     /**
      * The attributes that are excluded from the model's JSON form.

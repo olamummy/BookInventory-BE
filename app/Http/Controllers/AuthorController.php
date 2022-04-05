@@ -19,14 +19,15 @@ class AuthorController extends Controller
     */
     public function showAllAuthors()
     {
-        return response()->json(Author::all());
+        return response()->json(Author::orderByDesc('id')->get());
     }
 
     public function showOneAuthor($id)
     {
         return response()->json(Author::find($id));
     }
-    //Autho crud ops
+
+    //Create Author
     public function create(Request $request)
     {
         $author = Author::create($request->all());
@@ -34,6 +35,7 @@ class AuthorController extends Controller
         return response()->json($author, 201);
     }
 
+    //Update Author
     public function update($id, Request $request)
     {
         $author = Author::findOrFail($id);
@@ -42,6 +44,7 @@ class AuthorController extends Controller
         return response()->json($author, 200);
     }
 
+    //Delete Author
     public function delete($id)
     {
         Author::findOrFail($id)->delete();
